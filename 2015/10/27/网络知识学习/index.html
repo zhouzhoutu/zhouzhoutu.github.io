@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>关于网络知识的学习 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="2015.10.26 工作涉及到网络知识的应用，但实在小白。遂把学习得到的知识总结在此，一来是方便随时查看并记忆，二来是敦促自己不要忘了建站的目的。此文分日期逐渐完成，最终写成什么样子也不得而知，以此作行动的第一步。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于网络知识的学习">
+<meta property="og:url" content="http://yoursite.com/2015/10/27/%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="2015.10.26 工作涉及到网络知识的应用，但实在小白。遂把学习得到的知识总结在此，一来是方便随时查看并记忆，二来是敦促自己不要忘了建站的目的。此文分日期逐渐完成，最终写成什么样子也不得而知，以此作行动的第一步。">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2015-10-26T16:34:00.000Z">
+<meta property="article:modified_time" content="2020-05-19T07:54:24.784Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="知识整理">
+<meta property="article:tag" content="Linux">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-网络知识学习" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/10/27/%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/" class="article-date">
+  <time datetime="2015-10-26T16:34:00.000Z" itemprop="datePublished">2015-10-27</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/">知识学习</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      关于网络知识的学习
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>2015.10.26</p>
+<p>工作涉及到网络知识的应用，但实在小白。遂把学习得到的知识总结在此，一来是方便随时查看并记忆，二来是敦促自己不要忘了建站的目的。此文分日期逐渐完成，最终写成什么样子也不得而知，以此作行动的第一步。</p>
+<a id="more"></a>
+<p>1，关于IP的知识</p>
+<p>IP地址为什么是32bit 1byte的范围是0-255,ip地址每部分数字对应于8位二进制数字，即每位为8bit 把子网掩码切换至二进制，我们会发现，所有的子网掩码是由一串连续的1和一串连续的0组成的（一共4段，每段8位，一共32位数）。 制定IPv4规范的时候，全世界上网的电脑还不多，理论上使用32位地址可以寻址2的32次方，就是4T个地址，也就是40亿个地址。最初使用互联网的人们认为这些地址是用不完的，就按主机拥有量的使用规模分为A、B、C类地址，A类地址占用地址数量最多，C类地址就是我们常用的用作局域网络的192.168.1.0类地址。随着信息时代的发展，电脑拥有数量的持续增加和网络普及程度的增长，现有地址规范定义的地址接近耗尽，所以推出了IPv6，采用40位寻址，地址总数可以达到2的40次方，即1万亿个地址，并且按照新的分类定义地址。这样在一定程度上动摇美国在互联网的统治地位，遭到美国的消极对待，所以一直还没有推行。</p>
+<p>2，关于公网，私网</p>
+<p>固定IP：固定IP地址是长期固定分配给一台计算机使用的IP地址，一般是特殊的服务器才拥有固定IP地址。动态IP：因为IP地址资源非常短缺，通过电话拨号上网或普通宽带上网用户一般不具备固定IP地址，而是由ISP动态分配暂时的一个IP地址。普通人一般不需要去了解动态IP地址，这些都是计算机系统自动完成的。 <strong>公网IP世界只有一个，私网IP可以重复</strong>，但是在一个局域网内不能重复访问互联网是需要IP地址的，IP地址又分为公网IP和私网IP，访问互联网需要公网IP作为身份的标识，而私网IP则用于局域网，在公网上是不能使用私网IP地址来实现互联网访问的。</p>
+<p>私网IP段 10.0.0.0 - 10.255.255.255 172.16.0.0 - 172.31.255.255 192.168.0.0 - 192.168.255.255</p>
+<p>3，关于网段，网络标识</p>
+<p>网段（network segment）一般指一个计算机网络中使用同一物理层设备（传输介质，中继器，集线器等）能够直接通讯的那一部分。例如，从192.168.0.1到192.168.255.255这之间就是一个网段。 为了便于表达和识别，IP地址是以十进制形式表示的如210.52.207.2，每段所能表示的十进制数最大不超过255.IP地址由两部分组成，即网络号（Network ID）和主机号（Host ID）。网络号标识的是Internet上的一个子网，而主机号标识的是子网中的某台主机。网际地址分解成两个域后，带来了一个重要的优点：IP数据包从网际上的一个网络到达另一个网络时，选择路径可以基于网络而不是主机。在大型的网际中，这一点优势特别明显，因为路由表中只存储网络信息而不是主机信息，这样可以大大简化路由表。 A类IP地址：用8位（Bit）来标识网络号，24位标识主机号，最前面一位为”0”，即a类地址的第一段取值介于1～126之间。A类地址通常为大型网络而提供，全世界总共只有128个可能的A类网络，每个A类网络最多可以连接16777214台主机。 b类ip地址：用16位来标识网络号，16位标识主机号，前面两位是”10”.b类地址的第一段取值介于128～191之间，第一段和第二段合在一起表示网络号。B类地址适用于中等规模的网络，全世界大约有16000个b类网络，每个B类网络最多可以连接65534台主机。 C类IP地址：用24位来标识网络号，8位标识主机号，前面三位是”110”.C类地址的第一段取值介于192～223之间，第一段、第二段、第三段合在一起表示网络号。最后一段标识网络上的主机号,C类地址适用于校园网等小型网络，每个C类网络最多可以有254台主机。</p>
+<p>4，子网掩码</p>
+<p>子网掩码只有一个作用，就是将某个IP地址划分成网络地址和主机地址两部分。 子网掩码它的主要作用有两个，一是用于屏蔽IP地址的一部分以区别网络标识和主机标识，并说明该IP地址是在局域网上，还是在远程网上。二是用于将一个大的IP网络划分为若干小的子网络。 网络上，数据从一个地方传到另外一个地方，是依靠 IP 寻址。 从逻辑上来讲，是两步的。 第一步，从 IP 中找到所属的网络，好比是去找这个人是哪个小区的； 第二布，再从 IP 中找到主机在这个网络中的位置，好比是在小区里面找到这个人。 第一步中的网络，就称之为「子网」（Subnet）。 从逻辑上来讲，一般同一子网（Subnet）是使用相同的网关。就好比，一个小区的入口。 IPv4 的 IP 地址是 32 位的，形式如 <a href="http://xxx.xxx.xxx.xxx，每一个" target="_blank" rel="noopener">http://xxx.xxx.xxx.xxx，每一个</a> xxx 取值都是 0 - 255。 到底是前三个 xxx 相同，就代表同一个子网，还是前两个，还是其他？这个并不一定。 就好比小区有大有小，有的小区有上千户人家，有的小区只有区区几个。 所以，就引入「子网掩码」（Subnet Mask）来标识该子网的大小。 子网掩码计算 利用子网数来计算编辑 如欲将B类IP地址168.195.0.0划分成27个子网： 1)27=11011 2)该二进制为五位数，N = 5 3)将B类地址的子网掩码255.255.0.0的主机地址前5位置 1，得到255.255.248.0，即为划分成 27个子网的B类IP地址168.195.0.0的子网掩码。 利用主机数来计算编辑 1)将主机数目转化为二进制来表示 2)如果主机数小于或等于254（注意去掉保留的两个IP地址），则取得该主机的二进制位数，为 N，这里肯定 N&lt;8。如果大于254，则 N&gt;8，这就是说主机地址将占据不止8位。 3)使用255.255.255.255来将该类IP地址的主机地址位数全部置1，然后从后向前的将N位全部置为 0，即为子网掩码值。 如欲将B(c)类IP地址168.195.0.0划分成若干子网，每个子网内有主机700台(17)： 1) 700=1010111100 2)该二进制为十位数，N = 10(1001) 3)将该B类地址的子网掩码255.255.0.0的主机地址全部置 1，得到255.255.255.255，然后再从后向前将后10位置0，即为：11111111.11111111.11111100.00000000，即255.255.252.0。这就是该欲划分成主机为700台的B类IP地址 168.195.0.0的子网掩码。</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><div></div>
+<div></div>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/10/27/%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/" data-id="ckadn2u08000x5d7ue8cudqc8" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/" rel="tag">知识整理</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/12/13/%E5%86%99%E7%BB%992016%E5%B9%B4%E7%9A%84%E7%B2%A5%E7%B2%A5/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          写给2016年的粥粥
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Emotion/">Emotion</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/">知识学习</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%B8%AA%E4%BA%BA/">个人</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%BD%B1%E8%AF%84/">影评</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%83%85%E6%84%9F/">情感</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/">知识学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/">翻译计划</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B9%A6%E4%BF%A1/" rel="tag">书信</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B9%A6%E5%8D%95/" rel="tag">书单</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BF%A1%E4%BB%B6/" rel="tag">信件</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8E%9F%E5%88%99/" rel="tag">原则</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag">学习</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/" rel="tag">学习目录</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" rel="tag">年度总结</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BD%B1%E8%A7%86/" rel="tag">影视</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BD%B1%E8%AF%84/" rel="tag">影评</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%84%9F%E6%82%9F/" rel="tag">感悟</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/" rel="tag">时间管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/" rel="tag">知识整理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BF%BB%E8%AF%91/" rel="tag">翻译</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" rel="tag">读书笔记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%98%85%E8%AF%BB/" rel="tag">阅读</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Linux/" style="font-size: 10px;">Linux</a> <a href="/tags/%E4%B9%A6%E4%BF%A1/" style="font-size: 17.5px;">书信</a> <a href="/tags/%E4%B9%A6%E5%8D%95/" style="font-size: 10px;">书单</a> <a href="/tags/%E4%BF%A1%E4%BB%B6/" style="font-size: 12.5px;">信件</a> <a href="/tags/%E5%8E%9F%E5%88%99/" style="font-size: 10px;">原则</a> <a href="/tags/%E5%AD%A6%E4%B9%A0/" style="font-size: 15px;">学习</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/" style="font-size: 10px;">学习目录</a> <a href="/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" style="font-size: 20px;">年度总结</a> <a href="/tags/%E5%BD%B1%E8%A7%86/" style="font-size: 15px;">影视</a> <a href="/tags/%E5%BD%B1%E8%AF%84/" style="font-size: 10px;">影评</a> <a href="/tags/%E6%84%9F%E6%82%9F/" style="font-size: 10px;">感悟</a> <a href="/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/" style="font-size: 10px;">时间管理</a> <a href="/tags/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/" style="font-size: 10px;">知识整理</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 10px;">笔记</a> <a href="/tags/%E7%BF%BB%E8%AF%91/" style="font-size: 10px;">翻译</a> <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" style="font-size: 15px;">读书笔记</a> <a href="/tags/%E9%98%85%E8%AF%BB/" style="font-size: 12.5px;">阅读</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">December 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">June 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/10/">October 2015</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/05/19/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2019/12/31/%E5%86%99%E4%BA%8E%E5%8D%B3%E5%B0%86%E7%BB%93%E6%9D%9F%E7%9A%842010%E5%B9%B4%E4%BB%A3/">写于即将结束的2010年代</a>
+          </li>
+        
+          <li>
+            <a href="/2019/12/24/%E5%A6%82%E4%BD%95%E6%9C%89%E6%95%88%E7%BB%84%E7%BB%87%E4%BD%A0%E7%9A%84%E7%94%9F%E6%B4%BB-%E4%B8%8A/">如何有效组织你的生活</a>
+          </li>
+        
+          <li>
+            <a href="/2019/12/07/%E4%B8%80%E5%B9%B4%E5%90%8E%EF%BC%8C%E5%86%8D%E7%9C%8B996/">一年后，再看996</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/26/%E6%8B%A5%E6%9C%89%E6%9D%83%E5%8A%9B%EF%BC%8C%E5%B0%8A%E9%87%8D%E6%9D%83%E5%8A%9B%EF%BC%8C%E6%98%8E%E6%99%BA%E5%9C%B0%E4%BD%BF%E7%94%A8%E6%9D%83%E5%8A%9B(Ray%20Dalio)/">拥有权力，尊重权力，明智地使用权力(Ray Dalio)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
